@@ -1191,6 +1191,7 @@ function tabOnderbouwing(){
     ['Bodemattest Ruttermarkt 19','OVAM 20240991851 · 20.11.2024 · Geen verontreiniging','stukken/bodemattest_ruttermarkt_19.pdf'],
     ['EPC Energiecertificaat','Nr. 20220929-0002636893-RES-1 · Label C · Geldig t/m 2032','stukken/epc_energiecertificaat_ruttermarkt_21.pdf'],
     ['Elektriciteitskeuring','BTV Verslag B3/M0702/04 · 02.07.2014 · Herkeuring na akte','stukken/keuring_elektriciteit.pdf'],
+    ['Asbestinventarisatie','Asbestattest · dak schuur & meterkasten · meterkasten reeds gesaneerd','stukken/asbestattest_ruttermarkt_19_21.pdf'],
     ['Vastgoedinlichtingen VIP-00312885','Perceel 0644/00B000 · Ruttermarkt 19','stukken/vip_00312885.pdf'],
     ['Vastgoedinlichtingen VIP-00312886','Perceel 0639/00B000 · Ruttermarkt 21','stukken/vip_00312886.pdf'],
     ['Businessplan bankversie (Word)','Compacte financiële versie','stukken/businessplan_bankversie.docx'],
@@ -1280,6 +1281,24 @@ function tabOnderbouwing(){
         ${kv('Overstromingsgevoeligheid','Pluviaal D · Fluviaal A (laag)')}
       </div>
     </div>
+  </div>
+  <div class="card" style="margin-bottom:12px">
+    <div class="card-title">Asbestinventarisatie</div>
+    <div class="row" style="margin:0;gap:24px;flex-wrap:wrap">
+      <div style="flex:1;min-width:200px">
+        ${kv('Asbestattest','<span class="badge-ok">✓ Aanwezig</span>')}
+        ${kv('Aangetroffen asbest','Dak schuur · meterkasten')}
+        ${kv('Meterkasten (elektra)','<span class="badge-ok">✓ Reeds vervangen</span>')}
+      </div>
+      <div style="flex:1;min-width:200px">
+        ${bullets([
+          'Alle asbesthoudend materiaal in en rond de elektrische installatie is reeds verwijderd',
+          'Vervangen door moderne groepenkasten conform actuele normen',
+          'Resterend aandachtspunt: dakbedekking van de schuur (niet woongedeelte)',
+        ])}
+      </div>
+    </div>
+    <div class="note">Het asbest in de meterkasten is direct gekoppeld aan de elektrische installatie en is reeds gesaneerd bij de recente vervanging van de groepenkasten (zie elektriciteitskeuring). De schuur valt buiten de woon- en verblijfsfunctie en vormt geen belemmering voor de exploitatie; sanering hiervan kan op termijn worden meegenomen in het onderhoudsbudget.</div>
   </div>
   <div class="card-title" style="margin:14px 0 8px;font-size:10px;letter-spacing:3px;color:var(--muted);text-transform:uppercase">Bijlagen bij dit dossier</div>
   <div class="row" style="flex-wrap:wrap;gap:10px">
